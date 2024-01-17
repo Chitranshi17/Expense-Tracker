@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
 html{
   font-size: 62.5%;
 }
@@ -103,4 +104,17 @@ ul li{
 }
 li span{
   width: 20%;
+}
+
+
+@media (max-width : 768px) {
+  html{
+    font-size: 40%;
+  }
+}
+
+@media (max-width : 400px) {
+  html{
+    font-size: 25%;
+  }
 }

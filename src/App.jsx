@@ -4,8 +4,9 @@ import React, { useState } from 'react'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-import Navbar from './Components/Navbar'
+// import Navbar from './Components/Navbar'
 import HeroSection from './Components/HeroSection'
+import Navbar from './Components/Navbar';
 
 const App = () => {
 
@@ -74,7 +75,8 @@ const App = () => {
 
   return (
     <>
-   <Navbar dark={dark} changeTheme={changeTheme}/>
+   {/* <Navbar dark={dark} changeTheme={changeTheme}/> */}
+   <Navbar  dark={dark} changeTheme={changeTheme}/>
    <HeroSection transactions={transactions} deleteTransactions={deleteTransactions} addTransactions={addTransactions} dark={dark} editTransactions={editTransactions} edit={edit} updateTransactions={updateTransactions}/>
    <ToastContainer/>
    </>
